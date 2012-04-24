@@ -20,4 +20,5 @@ class ContactsController < ApplicationController
       format.xml { render :xml => @contact.errors, :status => :unprocessable_entity }
     end
   end
+  end
 end
